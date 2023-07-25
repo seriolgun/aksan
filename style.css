@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    width: 100%;
+
+    background: linear-gradient(rgba(20, 7, 65, 0.5), rgba(20, 7, 65, 0.5)), url("img/hero.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.nav-link {
+    color: white;
+}
+
+.laungh ul li {
+    display: inline-block;
+    margin-right: .5rem;
+
+    border-right: 1px solid white;
+    padding: 0 1rem;
+}
+
+.left-menu li {
+    color: gray;
+    margin-bottom: .52rem;
+    cursor: pointer;
+    transition: .34s;
+}
+
+.left-menu ul li:hover {
+    color: #990033;
+}
+
+#select-border , .left-form form input  {
+    border-bottom: 1px solid gray !important;
+    /* !important Boostrap'in css kodunu ezmesine engel olur!!! */
+    padding: .4rem .8rem; 
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.fs-7{
+    font-size: 14px;
+}
+.fo-link{
+    color: white;      
+    text-decoration: none;                                                                                                                                                                                                           
+}
+.fo-link:hover{
+    color: rgb(225, 223, 223);
+}
+.demo button:hover{
+  color: rgb(129, 8, 8) !important;
+  background-color: rgb(10, 182, 213) !important;
+}
+/* .demo {
+    margin: 0  !important;
+    padding: 0;
+} */
